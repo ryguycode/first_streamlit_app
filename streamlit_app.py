@@ -36,7 +36,7 @@ try:
     streamlit.dataframe(fruityvice_normalized)
 except URL as e:
   streamlit.error()
-streamlit.write('The user entered ', fruit_choice)
+#streamlit.write('The user entered ', fruit_choice) # this line is not needed any more 
 
 #import requests
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" +"kiwi")
